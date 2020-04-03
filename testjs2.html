@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Teste JavaScript</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			var quebrada = false; //variavel global// 
+			function mudaLampada(tipo){
+				if( tipo ==1){
+					arquivo= "lampp2.jpg";
+				}
+				if(tipo==2){
+					arquivo="lampp1.jpg";
+				}
+				if (tipo==3) {
+					arquivo="lampp3.jpg";
+				}
+				if (!quebrada){
+					document.getElementById("luz").src=arquivo;
+					if (tipo == 3){
+						quebrada = true;
+					}
+				}
+			}
+			
+	
+		</script>
+	</head>
+	<body>
+		<h1><em>Testando javaScript</em></h1>
+		
+		<script type="text/javascript">
+			document.write("Teste realizado dia "+Date());
+		</script>
+
+		<p>Acenda a lâmpada</p>
+		<img src="lampp1.jpg" id= "luz" onmouseover="mudaLampada(1)" onmouseout="mudaLampada(2)" onclick= "mudaLampada(3)" />
+
+	</body>
+</html>

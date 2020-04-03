@@ -1,0 +1,48 @@
+p{
+	color: #48D1CC;
+}
+h4{
+	color: #00CED1;
+}
+body{
+	background-color: gray;
+
+}
+ul{
+	color: #20B2AA;
+	font-family: Arial;
+}
+form{
+	background-color: #E9967A;
+	font-size: 20px;
+}
+header{
+	background-color:#35b8b0;
+	height: 50px;
+	font-size: 25px;
+	background-color: 
+}
+#div_esquerda{
+	width: 70%;
+	background-color: black;
+	color: white;
+	float: left;
+	min-height: 50px;
+	font-size: 20px;
+	height: 30px;
+}
+#div_direita{
+	background-color: white;
+	color: pink;
+	width: 30%;
+	min-height: 50px;
+	float: right;
+}
+.container{
+	width: 790px;
+	margin:0 auto;
+}
+footer{
+	background-color: blue;
+	height: 20px;
+}
